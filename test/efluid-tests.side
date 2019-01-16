@@ -1,0 +1,3316 @@
+{
+  "id": "ee16546b-f7f2-4545-81ce-6e8c42cb1cb2",
+  "version": "1.1",
+  "name": "eFluidTests",
+  "url": "https://www.efluidchart.com",
+  "tests": [{
+    "id": "d088cc9f-a4cb-4f79-94df-2d8f3c52570b",
+    "name": "addNewFluid",
+    "commands": [{
+      "id": "67bd1d6d-ac51-4447-b8f0-32f6ec7c7f3f",
+      "comment": "",
+      "command": "open",
+      "target": "/FluidType/Edit/0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cbf4f9f-60c7-45d9-b06d-40e3f70672aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=Sodium",
+      "targets": [],
+      "value": "20"
+    }, {
+      "id": "824d9f9b-06c9-444f-a5a8-2a3cadcc52d4",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=Chloride",
+      "targets": [],
+      "value": "39,14"
+    }, {
+      "id": "2399b073-8ee8-4c56-8c11-7fa82d094243",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=Chloride",
+      "targets": [],
+      "value": "39,14"
+    }, {
+      "id": "800628ec-d32e-4c64-bddd-5a11804f5956",
+      "comment": "",
+      "command": "type",
+      "target": "id=Chloride",
+      "targets": [],
+      "value": "12"
+    }, {
+      "id": "3a7ea4b6-809b-4ca5-b85d-7f01574f67a6",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=Potassium",
+      "targets": [],
+      "value": "29,14"
+    }, {
+      "id": "f54c8785-8c03-4e0e-958a-e0d4403b1e94",
+      "comment": "",
+      "command": "type",
+      "target": "id=Potassium",
+      "targets": [],
+      "value": "40"
+    }, {
+      "id": "eab22020-cdcb-40cb-804d-23d3def62995",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=Bicarbonate",
+      "targets": [],
+      "value": "28,10"
+    }, {
+      "id": "c551bd1a-85bd-448e-9c42-5f28abb78efe",
+      "comment": "",
+      "command": "type",
+      "target": "id=Bicarbonate",
+      "targets": [],
+      "value": "30"
+    }, {
+      "id": "0967cb08-e450-4545-80d4-6c5a592805ae",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=Glucose",
+      "targets": [],
+      "value": "31,20"
+    }, {
+      "id": "20acd3ce-ddb8-4614-8d00-3def2eb12bda",
+      "comment": "",
+      "command": "type",
+      "target": "id=Glucose",
+      "targets": [],
+      "value": "55"
+    }, {
+      "id": "a7426717-1ac9-43d2-8282-8be3aeb6255d",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=Magnesium",
+      "targets": [],
+      "value": "22,21"
+    }, {
+      "id": "75a4a315-9b43-4663-84df-6797ce569887",
+      "comment": "",
+      "command": "type",
+      "target": "id=Magnesium",
+      "targets": [],
+      "value": "33"
+    }, {
+      "id": "836ae039-02dd-426e-ab0a-eb4930ce2f8f",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=Calcium",
+      "targets": [],
+      "value": "26,27"
+    }, {
+      "id": "4718a0fb-7169-4660-9441-d7468a9a91ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=Calcium",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "c62a2fd3-37e1-47cd-aa83-0de03e479553",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [],
+      "value": "24,19"
+    }, {
+      "id": "d1808131-64b2-43f7-9f90-092daf718e52",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/span/span",
+      "targets": [],
+      "value": "Description is required"
+    }, {
+      "id": "33c7cf6a-c25c-4897-8c6f-cc163ec50ef0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error > span",
+      "targets": [],
+      "value": "Abbreviation is required"
+    }, {
+      "id": "8c01024f-0a61-4cfc-9f5a-af99cc79b4d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=Abbreviation",
+      "targets": [],
+      "value": "T F"
+    }, {
+      "id": "e94c2522-533c-4796-a20d-3cb358ca1a3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=Description",
+      "targets": [],
+      "value": "Test Fluid"
+    }, {
+      "id": "49bb7089-d402-43ed-a234-1c4368f5cce9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [],
+      "value": "24,19"
+    }, {
+      "id": "3a0d6a4f-55ec-4e0c-9f0a-2199307bf1b5",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Fluid Types",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "525057ac-6403-4ac5-96dd-bdf7c93b496a",
+    "name": "additiveCorrectVolume",
+    "commands": [{
+      "id": "09b31e39-3b1f-4be0-95ab-346e49a25292",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.efluidchart.com/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "557a81bb-be4e-405f-81ff-a8f30aeabc28",
+      "comment": "",
+      "command": "click",
+      "target": "css=a.btn.btn-success",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a24dc4d2-5aa1-4615-963f-484db08c0cf9",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d06d5e2a-3c6f-4ddd-8973-788f25471f33",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [],
+      "value": "normal"
+    }, {
+      "id": "f5989582-0620-4732-9d87-a1a95b7675e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "088c7a60-0f74-4b58-8432-90ed0fcbc783",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=Volume",
+      "targets": [],
+      "value": "35,12"
+    }, {
+      "id": "d1ee7c1e-f63d-4ec7-96d2-3416f56081df",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "a7afb48c-11ad-4bdd-b864-42f9f3997694",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=AdditiveId",
+      "targets": [],
+      "value": "22,18"
+    }, {
+      "id": "8fabf48a-4692-4ea8-bdcd-e09081fe6c88",
+      "comment": "",
+      "command": "select",
+      "target": "id=AdditiveId",
+      "targets": [],
+      "value": "label=20 mmol / L KCI"
+    }, {
+      "id": "507eb4eb-55bd-4053-a7ae-7f24d6e131e3",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=Rate",
+      "targets": [],
+      "value": "28,18"
+    }, {
+      "id": "8a194002-0287-47a0-ac1e-23171515799c",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "e035f232-7116-4bc7-9a0f-7ca97546e8f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=ins.iCheck-helper",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35abfb38-98cf-4f39-b257-6df4ac206fe2",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56dbd183-c608-4cee-abb5-413f4f11c45c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "Additives can only be added to Volumes of 500ml or 1000ml."
+    }]
+  }, {
+    "id": "c1895421-dc21-4cc4-b09d-bbdd0d853c4e",
+    "name": "additiveCorrectFluid",
+    "commands": [{
+      "id": "1f69491f-43f9-435e-b396-749d92f65d1b",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9174cd3f-4ed9-439d-b4e2-35084a89b6f6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [],
+      "value": "134,18"
+    }, {
+      "id": "06ba8f4f-e646-403a-b2d9-2bc2bff8f038",
+      "comment": "",
+      "command": "click",
+      "target": "css=ins.iCheck-helper",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be9a1cf0-ed88-4dca-b724-8ce4fe4f1e61",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [],
+      "value": "Hartmann's"
+    }, {
+      "id": "0accec31-e1d6-4e2e-8dc1-60bb1b3ffe9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"3\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebbbdaba-d6eb-4f76-a6aa-224512aa5240",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=AdditiveId",
+      "targets": [],
+      "value": "211,23"
+    }, {
+      "id": "814fb4de-5696-4275-82a2-ac4e4f395964",
+      "comment": "",
+      "command": "select",
+      "target": "id=AdditiveId",
+      "targets": [],
+      "value": "label=20 mmol / L KCI"
+    }, {
+      "id": "4b43c44d-53f0-4b78-b788-69f8f18a801b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "6e05cc81-ff1a-4a5f-9d5b-f1f8bb56ec88",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=div.col-xs-12",
+      "targets": [],
+      "value": "6,1521"
+    }, {
+      "id": "fa70a7b2-7cd0-44ea-aa9d-d5a828951029",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [],
+      "value": "500"
+    }, {
+      "id": "36370e37-b3f9-488f-96f4-8e27ec1c6a66",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=submitPrescription",
+      "targets": [],
+      "value": "134,29"
+    }, {
+      "id": "d186974e-195e-41f0-af9a-d5193e1eef90",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [],
+      "value": "Additives can not be selected with this fluid type."
+    }]
+  }, {
+    "id": "f2906361-c60d-47cf-aa15-c4a5813c3c2f",
+    "name": "additiveWithBolus",
+    "commands": [{
+      "id": "78f1d026-0e7e-43ce-80e0-106faef619b0",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07bc6480-42a2-40e6-9818-984878d2a352",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [],
+      "value": "106,18"
+    }, {
+      "id": "8c624c85-214a-45d1-bb8f-49dc23e26933",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72315c3b-0464-4d7e-bbb9-a1425a90a53a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[2]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d434820f-49cc-4ba5-a6f0-ba12ff15e853",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [],
+      "value": "Normal"
+    }, {
+      "id": "b04bc19c-4127-4f57-bfd5-2d87eee2f578",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fade7bc3-fb9b-417e-ae12-d9fb962c188c",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "626fc36b-b676-45e8-82df-76799dd4f1cb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=AdditiveId",
+      "targets": [],
+      "value": "479,20"
+    }, {
+      "id": "2b0506cf-d758-4554-8610-a240e5687062",
+      "comment": "",
+      "command": "select",
+      "target": "id=AdditiveId",
+      "targets": [],
+      "value": "label=20 mmol / L KCI"
+    }, {
+      "id": "27c0a2c6-7870-4ffa-95d3-7e62f625e9fb",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=Rate",
+      "targets": [],
+      "value": "91,14"
+    }, {
+      "id": "c0ab3cd5-f4e5-4549-954f-99158fbf86bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "6f009bb8-f660-478c-9eb6-b66d5f49efdb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=div.col-xs-12",
+      "targets": [],
+      "value": "12,1503"
+    }, {
+      "id": "83a1bbb3-6914-48b1-b0f0-316fbfda2066",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//form[@id='prescriptionForm']/div[3]/div",
+      "targets": [],
+      "value": "446,15"
+    }, {
+      "id": "db973880-067e-4411-8882-59c6218dce66",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=submitPrescription",
+      "targets": [],
+      "value": "117,21"
+    }, {
+      "id": "9a7c1853-b25b-469f-9f9a-bcfcd6445b80",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "You cannot select Bolus if an Additive has been added."
+    }]
+  }, {
+    "id": "84dcaffa-4eae-4ff0-bea4-c68b855d68b2",
+    "name": "BolusSodium",
+    "commands": [{
+      "id": "3f65cb9c-12c9-4e22-8aea-9d10494f11c9",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c10a9848-f12a-4a9c-bad6-6e6d2fc861b7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "db7f4de9-7fe8-4069-bd07-2fc8aa482a79",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0b3961e-886e-4e5d-b87f-b752929c20e7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[2]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "501b4132-2174-40ca-b984-b2e8c7104d5e",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Half"
+    }, {
+      "id": "46ec889e-b88f-4376-9710-8d41c075bf5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"2\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "183b9a7c-12b9-4018-af6b-a9cca03999f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "250"
+    }, {
+      "id": "16a0a361-c619-42c1-a28b-54e296e2705a",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "0938b69f-624b-4026-9cae-082c5886e29b",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aff7eca4-4e12-49da-8dee-e8d87f91203c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "Bolus cannot be selected when total Sodium prescribed is less than 129 mmol/L."
+    }]
+  }, {
+    "id": "3561f404-e978-4f01-9f88-4c659b8ef52e",
+    "name": "Bolus15mins",
+    "commands": [{
+      "id": "8d128f7a-cc0c-40c1-8ba6-512d04a3d910",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afb77751-dd6c-45bc-8dd8-3f6da062145a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "b22f73a2-92fe-4a09-a0f8-ea4ab38e2af3",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40b58449-68eb-4360-b031-89cf1f4bb38d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[2]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fa77c4e-58f4-4421-87ed-1df4bea2f06d",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "06be06d0-d768-407c-bfbf-43a011e130c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e0a41a6-9b2a-4cb7-88f3-c74efbd2289f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "47022b8f-e330-4975-b749-b2f4a41a11f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "e8a4f8c4-b125-4af4-97ed-dc89cc272a34",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ed282be-b525-4398-b85f-0802acc06935",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "If Bolus is selected and NEWS score is 5 or above, rate must be such that the patient recieves the total volume in 15 minutes or less."
+    }]
+  }, {
+    "id": "3286b418-0a1a-4d12-9988-2304887a1460",
+    "name": "BolusVolume",
+    "commands": [{
+      "id": "e42f4c57-a1b4-40c8-9fb8-ca29ef9d0d22",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d108b87e-192a-46b2-8486-7dda6b6338aa",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "d8911069-9384-42b9-8805-bd2db209bf8f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38af7f50-16b5-4682-8cbd-fecfa112fb9c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[2]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c8ea5b4-1470-4756-b7b0-5d924bdd1118",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "56acbd59-2f49-4bcd-b8ab-8dbb89cdb88d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4792f34-70b9-4c58-8bfb-2645cb4eb012",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "550"
+    }, {
+      "id": "ed970549-7476-48e3-bcaa-ffa336e0ab67",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2500"
+    }, {
+      "id": "de018bdc-0d12-4271-bc5b-502c5ba284ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd9ec4de-268b-40b8-8b0b-ebf53f7c94c4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "If Bolus is selected volume must be between 250ml and 500ml."
+    }]
+  }, {
+    "id": "484a2348-600b-40e1-a34d-f5688e78b80f",
+    "name": "Prescription-veNum",
+    "commands": [{
+      "id": "575ada43-dcbf-46b9-ad69-185a7b25df3c",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80171bad-c7de-4b7c-b6d3-696a3c692b33",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "40cb0f76-7988-4bfb-b563-0a63b23c04c5",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db152813-fc43-4102-96a6-fa3f2955434b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[2]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5868551-c84d-484e-a540-417415302729",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "d6bd7abf-732f-41a9-998d-2c453d1ab459",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74e2c299-e309-4375-bed2-575d33d2843b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "6255298c-8754-4ce9-9191-72ee8f36db06",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "282318cd-f7da-4973-88de-bbbe951fccf3",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08bf4138-edb4-4165-8191-700df8c2d976",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error > span",
+      "targets": [
+        ["css=span.field-validation-error > span", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div[2]/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": "Volume must be at least 1ml"
+    }, {
+      "id": "e84febf4-4005-4be8-a75b-16470ce643a9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//form[@id='prescriptionForm']/div[2]/div/span[2]/span",
+      "targets": [
+        ["xpath=//form[@id='prescriptionForm']/div[2]/div/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": "Rate must be between 10 and 6000 ml/hr"
+    }]
+  }, {
+    "id": "48218b3d-eeae-46dd-85e0-7827fd111878",
+    "name": "BolusRate>1000",
+    "commands": [{
+      "id": "ca818a63-63a5-441a-930f-ddb942ab4eb1",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44a50a82-a3c7-4252-ae95-41bc63e285b9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "b8d3a5a9-4062-4a75-8a73-8502d8f87e40",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94f97478-7605-44c1-8208-5b9053fdc95a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[1]/div[1]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f333eab-d13b-48b2-bbb8-d076c2df6b81",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "2aa1f254-fcfd-4063-8eba-4bd4dbce7cce",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98f141a0-7233-4b88-85b8-41f36f555da9",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "225"
+    }, {
+      "id": "757ecf1b-51de-4024-84ca-bad117837b5f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2500"
+    }, {
+      "id": "cdb96a96-9056-4d6e-8dd5-da66f3da559d",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e6f8d7c-ee81-414c-83ba-3b0e12583b52",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "With a specified rate of greater than 1000 ml/hr only 'Bolus' can be selected."
+    }]
+  }, {
+    "id": "01c26274-8d21-4f2b-a424-927038517b71",
+    "name": "NothingChecked",
+    "commands": [{
+      "id": "12f6272e-c6e2-40ce-bb03-0efcae7029c8",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "074be2d1-c76f-4243-8087-aebe77e70d93",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "009bd1ce-f44f-4c8f-bb42-db9ede3f213e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a479d29-ee87-4ad0-bbf5-5ca516bd72e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "cce0ba25-d48b-42a9-873c-cc81c2357cbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "876f72e8-30dd-44dc-87ef-328ec1c319cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "eda57c90-22aa-4637-9254-49d2579c09b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "03a70427-b57b-465a-809d-a0e42cbd765d",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57e78782-357c-4846-b3a6-099729795eb3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "You must select at least one of the Indication options for the prescription."
+    }]
+  }, {
+    "id": "bd40d560-e6e9-4392-8815-d57ade869d8b",
+    "name": "O&Dw/oM",
+    "commands": [{
+      "id": "cbb5d031-4c41-4048-89d9-d627542f385c",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39d5382f-e1fd-4c6b-a205-70b83f72ada2",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "47b68a63-14ff-48e8-b898-44a7e670760e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da9d5abd-7d36-4c32-9ae9-2b722f834216",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[1]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76d58b24-ddab-45ac-902f-38e8e5c58856",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "7291c6cf-c98c-4190-ac22-64f9d4856eeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0979f272-802d-4c60-a04b-e3fe1112efb9",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "c6a36178-b78e-4341-ac5f-f0418a34aa23",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "d7c6739e-9796-4712-82ad-1a3973be6e6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d424b3a1-749a-4131-9ab6-f25caec18724",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "'Ongoing' or 'Deficit' (or both) must be always be selected with 'Maintenence."
+    }]
+  }, {
+    "id": "fdbcd4fb-39c9-438d-a39c-d15eadf76e34",
+    "name": "Rate<84",
+    "commands": [{
+      "id": "8bb555c1-3f72-4438-a0a2-9b4755f45ee6",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18f87385-219f-4437-be09-879a7b6d644a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "b8255797-e03b-4324-8028-fb01b04372f8",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21cbf788-3ab1-4723-8e22-3437d52ac69a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[1]/div[1]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5429b5f3-548f-49a0-a0a5-0d1f047c63e3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[1]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19f5fb1f-d931-4fd5-8794-df4c7e5a238e",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "caa9077a-d261-453c-a8dd-d7bce510f0b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f0d66ff-c0c6-462a-bc19-9c2ee7eb9de5",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "b978fa70-c179-4014-bb49-452251868c54",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "83"
+    }, {
+      "id": "55767158-52d0-453b-8df8-c369ca0e883f",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ba1d3b5-d26a-4b2d-94a5-804dd6bf8c0c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "With a specified rate of less than 84 ml/hr the Indication must be 'Maintenance' ONLY."
+    }, {
+      "id": "fa814176-e238-4991-ba26-7caf70c92b11",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//form[@id='prescriptionForm']/div/div/ul/li[2]",
+      "targets": [
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": "'Maintenance' together with 'Ongoing' or 'Deficit' (or both) must be selected with a specified rate of between 84 and 999 ml/hr."
+    }]
+  }, {
+    "id": "d3f9050a-7c0c-432e-999e-99143383cc07",
+    "name": "Mw/oO&D",
+    "commands": [{
+      "id": "76ee2fed-2ce5-4f23-af6a-7124cca571d5",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d3abe95-bb3a-4ab0-ae62-9b3a08e1f74f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "f2adedbf-3976-41c4-840c-f0d461b49cc9",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68efd204-d180-43f0-90b6-80a4fdac4e08",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[1]/div[1]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52e87991-59af-402b-8f25-bb348daef691",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "401ba770-fe88-4bc7-86a0-44107675f644",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7da92190-d918-4ab6-95a6-37d32554fa41",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "943a1175-58db-4926-90c5-57069aff08d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "57d04742-5ad0-475d-8bb1-9b55f50cdf92",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ba56111-321a-4441-8810-33fd9f4cfa7e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": "'Maintenance' together with 'Ongoing' or 'Deficit' (or both) must be selected with a specified rate of between 84 and 999 ml/hr."
+    }]
+  }, {
+    "id": "8d57e331-e651-4a07-a148-5d8182ab6acf",
+    "name": "PrescriptionVeryLarge",
+    "commands": [{
+      "id": "a384e802-e2b0-4ffa-a426-bb48b3c36566",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d0478fa-355d-4b05-8b6e-99c479aeecd2",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "4be55f50-97c2-4557-a2ba-af95bf47ae8a",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "026602ec-b4df-44c2-9688-e3e46c576216",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[2]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80a0c749-f887-4d88-bef1-876af2c77c31",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "87378f5d-3674-4b95-8566-42b7e82d4d21",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3248f708-cc54-4121-92af-183035a11a7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "10000000000000000000000000000000000000000000000000000000000"
+    }, {
+      "id": "93d5b609-7d04-49f3-809c-c8942a1fadba",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "f30a9316-d2bc-4f1a-bcbe-db4ba13788d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08c69865-f5e9-4dd1-ba90-f17db4195c6b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error",
+      "targets": [
+        ["css=span.field-validation-error", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/span", "xpath:position"]
+      ],
+      "value": "The value '10000000000000000000000000000000000000000000000000000000000' is not valid for Volume."
+    }]
+  }, {
+    "id": "29fe3287-166c-4991-8155-db5916905a83",
+    "name": "PrecriptionTotalsAndTier3",
+    "commands": [{
+      "id": "cc9fa7b8-b349-4b2a-8f4b-552a64dfd4a0",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83974738-e7fc-460c-bac2-7c6f326b970f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "9cdf4c44-c6ef-4d09-bf0f-24be2cf89543",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7e99ef9-fa74-4786-b3a2-9fcfa7de9a12",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[2]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e1362a7-dc93-44d9-a232-0dcb792002a5",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "192722e2-1a30-47b0-86e5-70033b6f9129",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8a3c43d-84e3-4703-9989-18c8d730284f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "250"
+    }, {
+      "id": "2a7167cd-ad3b-4d06-bb43-05cc2252d3ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "c62a0ce4-d0ca-4e11-9bc9-17dbd2ad8cae",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d22a2a27-414e-4ff4-bb05-36f4f252ca61",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1127a95-7636-4344-99cc-94ff919a9b9f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.list-group-item.list-group-item-info",
+      "targets": [
+        ["css=li.list-group-item.list-group-item-info", "css"],
+        ["xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li", "xpath:position"]
+      ],
+      "value": "Total Volume: 250 ml (3.85 mmol/kg/da)"
+    }, {
+      "id": "0f0356c3-24db-413a-baab-82ca4879e3af",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[2]",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": "Sodium - 4.74 mmol/kg/day"
+    }, {
+      "id": "db53f6a4-306d-4a77-9800-c618b52902c4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[3]",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]", "xpath:position"]
+      ],
+      "value": "Chloride - 4.74 mmol/kg/day"
+    }, {
+      "id": "b6dcef69-0dcd-4a04-aae6-596b04b941d8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[4]",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]", "xpath:position"]
+      ],
+      "value": "Potassium - 0 mmol/kg/day"
+    }, {
+      "id": "4bf3b078-2a6d-4c76-bc47-101dd5218444",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=td",
+      "targets": [
+        ["css=td", "css"],
+        ["xpath=//div[@id='prescriptionPartial']/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7446f1b9-f1a9-47c7-bff5-70c48b3577d5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[2]/div[2]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c34f610-cb0b-485e-8d83-e6932e5a8848",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "normal"
+    }, {
+      "id": "b34aa056-6cf8-4d50-b6ae-163f4aff459d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "093bbbd8-92ca-4541-a8a8-1c1d93c15aeb",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "cd81e43d-4a75-4088-b4de-2a27d86cd213",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "9d8ad827-5aac-4c44-b515-28fb9da7381b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": "36,16"
+    }, {
+      "id": "1f474b5d-fea4-46d1-bdc6-e209d0938ed7",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df07ff12-2775-427f-9c52-bbe790f5eb3d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[@id='prescriptionPartial']/div/table/tbody/tr[2]/td",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03c1bdf-6036-4fe0-a597-77e2d6010f1f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.list-group-item.list-group-item-info",
+      "targets": [
+        ["css=li.list-group-item.list-group-item-info", "css"],
+        ["xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li", "xpath:position"]
+      ],
+      "value": "Total Volume: 750 ml (11.54 mmol/kg/da)"
+    }, {
+      "id": "645e1592-a361-48a7-a7d6-49767dc105d3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[2]",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": "Sodium - 9.48 mmol/kg/day"
+    }, {
+      "id": "1f934457-0d4d-486e-8b30-5ae8e2083192",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[3]",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]", "xpath:position"]
+      ],
+      "value": "Chloride - 9.48 mmol/kg/day"
+    }, {
+      "id": "5c880fff-770e-401e-8413-ba21c5095380",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[4]",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div[2]/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]", "xpath:position"]
+      ],
+      "value": "Potassium - 0 mmol/kg/day"
+    }, {
+      "id": "721e3714-33f8-47e8-b48a-88f213c2ca3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitFinishPrescribing",
+      "targets": [
+        ["id=submitFinishPrescribing", "id"],
+        ["css=#submitFinishPrescribing", "css"],
+        ["xpath=//button[@id='submitFinishPrescribing']", "xpath:attributes"],
+        ["xpath=//form[@id='usercaseForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f0b70e1-7a5f-48c5-9c75-12b575cf75ae",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//form[@id='usercaseForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//form/div/div/ul/li", "xpath:position"]
+      ],
+      "value": "Dose of of fluid is high (either rate greater than 165ml/hr or total dose of prescribed plus already administered is greater than 25ml/kg) Please add special instructions below."
+    }, {
+      "id": "de0fe333-33df-4163-8528-2a7fa2367036",
+      "comment": "",
+      "command": "type",
+      "target": "id=UrineOutput",
+      "targets": [
+        ["id=UrineOutput", "id"],
+        ["name=UrineOutput", "name"],
+        ["css=#UrineOutput", "css"],
+        ["xpath=//textarea[@id='UrineOutput']", "xpath:attributes"],
+        ["xpath=//form[@id='usercaseForm']/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "422ae80e-8f69-400c-8ec4-822d82a4a9d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=OverallBalance",
+      "targets": [
+        ["id=OverallBalance", "id"],
+        ["name=OverallBalance", "name"],
+        ["css=#OverallBalance", "css"],
+        ["xpath=//textarea[@id='OverallBalance']", "xpath:attributes"],
+        ["xpath=//form[@id='usercaseForm']/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[2]/textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "01e80d5f-f3e6-4c32-a77e-32b88233ae94",
+      "comment": "",
+      "command": "type",
+      "target": "id=TargetBalance",
+      "targets": [
+        ["id=TargetBalance", "id"],
+        ["name=TargetBalance", "name"],
+        ["css=#TargetBalance", "css"],
+        ["xpath=//textarea[@id='TargetBalance']", "xpath:attributes"],
+        ["xpath=//form[@id='usercaseForm']/div[2]/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "bfb69cb8-38d4-40ff-9a91-b27cf6bb4861",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=submitFinishPrescribing",
+      "targets": [
+        ["id=submitFinishPrescribing", "id"],
+        ["css=#submitFinishPrescribing", "css"],
+        ["xpath=//button[@id='submitFinishPrescribing']", "xpath:attributes"],
+        ["xpath=//form[@id='usercaseForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form/div[3]/div/button", "xpath:position"]
+      ],
+      "value": "56,23"
+    }, {
+      "id": "ae2c9c65-c3be-44e3-85e3-f77c3e44e754",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#feedbackGenericPartial > div > p",
+      "targets": [
+        ["css=#feedbackGenericPartial > div > p", "css"],
+        ["xpath=//div[@id='feedbackGenericPartial']/div/p", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "104b6034-ab2e-4eec-8d0e-49c852805ce3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[@id='feedbackSpecificPartial']/div/p[3]",
+      "targets": [
+        ["xpath=//div[@id='feedbackSpecificPartial']/div/p[3]", "xpath:idRelative"],
+        ["xpath=//p[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69f1e1c5-930e-4440-9cac-308874e07cc5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=div.row.space-30 > div.col-xs-12.col-sm-4",
+      "targets": [
+        ["css=div.row.space-30 > div.col-xs-12.col-sm-4", "css"],
+        ["xpath=//form[@id='usercaseForm']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "330cd0a1-fe26-4caa-962e-39ea931d1e1b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//form[@id='usercaseForm']/div/div[2]",
+      "targets": [
+        ["xpath=//form[@id='usercaseForm']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aea7b7ee-ba02-4515-b934-812bc06e78ab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//form[@id='usercaseForm']/div/div[3]",
+      "targets": [
+        ["xpath=//form[@id='usercaseForm']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "477a63b1-3ca8-4b60-a960-00d984c72f2a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=Feedback",
+      "targets": [
+        ["id=Feedback", "id"],
+        ["name=Feedback", "name"],
+        ["css=#Feedback", "css"],
+        ["xpath=//textarea[@id='Feedback']", "xpath:attributes"],
+        ["xpath=//div[@id='userFeedbackPartial']/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "acfc8614-fe85-4f04-9b74-798f1390aa2e",
+    "name": "DisplayCaseThumbnail",
+    "commands": [{
+      "id": "ed03c67b-36dc-49ec-82dd-1d082c16b765",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32c233bb-b12f-4031-9620-6d014eb7ffe6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='dataTable']/tbody/tr[2]/td[4]/a",
+      "targets": [
+        ["xpath=//table[@id='dataTable']/tbody/tr[2]/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/View/4')]", "xpath:href"],
+        ["xpath=//tr[2]/td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "702d3921-e603-4bcf-aaea-2a5d52a71840",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "887d5086-c198-486d-810c-8bf4840530a0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=img.img-responsive.img-thumbnail",
+      "targets": [
+        ["css=img.img-responsive.img-thumbnail", "css"],
+        ["xpath=//img[@alt='tester']", "xpath:img"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afba2b8c-3f7d-47f3-8ad4-1da7259f9e2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=img.img-responsive.img-thumbnail",
+      "targets": [
+        ["css=img.img-responsive.img-thumbnail", "css"],
+        ["xpath=//img[@alt='tester']", "xpath:img"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2dbddd4-a367-48c4-8d33-a69ac91439b2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=div.lb-nav",
+      "targets": [
+        ["css=div.lb-nav", "css"],
+        ["xpath=//div[@id='lightbox']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "76687b17-29cc-494d-ab54-0a7bad4e87b2",
+    "name": "ViewFluidLibrary",
+    "commands": [{
+      "id": "c2631e07-20ba-4f70-9a37-998ffe474bb2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.efluidchart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20759afa-6aab-4b92-942e-e4ddcab6b07e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//ul[@id='side-menu']/li[4]/a",
+      "targets": [
+        ["xpath=//ul[@id='side-menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/FluidType')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd6f3272-40f2-464a-abe7-e09cbe85c916",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Fluid Types",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1b33e8ed-1298-4ab3-9b97-4fb2f9f07391",
+    "name": "NEWSScoreTooHigh",
+    "commands": [{
+      "id": "231729ce-3a4a-4751-b575-e4f984c6f312",
+      "comment": "",
+      "command": "open",
+      "target": "/Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7269c43-a801-4626-a101-3d0f2ee79c86",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='dataTable']/tbody/tr[4]/td[6]/a",
+      "targets": [
+        ["xpath=//table[@id='dataTable']/tbody/tr[4]/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Case/Edit/4')])[2]", "xpath:href"],
+        ["xpath=//tr[4]/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bd43737-f934-469e-8e34-62e6f952582e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26a6f3e8-f3b3-4560-bcc9-ba82d90d4dfb",
+      "comment": "",
+      "command": "type",
+      "target": "id=NEWSScore",
+      "targets": [
+        ["id=NEWSScore", "id"],
+        ["name=NEWSScore", "name"],
+        ["css=#NEWSScore", "css"],
+        ["xpath=//input[@id='NEWSScore']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "16"
+    }, {
+      "id": "07fe5d21-62d4-4b16-b461-657f59ce2293",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='submit'])[7]",
+      "targets": [
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[10]/div/button", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f840cdb-451e-42e5-90f2-c6c6ce60120c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div/ul/li", "xpath:idRelative"],
+        ["xpath=//form/div/ul/li", "xpath:position"]
+      ],
+      "value": "NEWS score cannot be less than 1 or more than 15"
+    }]
+  }, {
+    "id": "e19075ea-d8fa-4e86-9d85-a3839a5b09cd",
+    "name": "NEWSScoreLeadingZeros",
+    "commands": [{
+      "id": "33f1e5aa-5504-4787-b00f-41036a876212",
+      "comment": "",
+      "command": "open",
+      "target": "/Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2578ca26-2b21-4d01-8326-8ff4f8251091",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='dataTable']/tbody/tr[4]/td[6]/a",
+      "targets": [
+        ["xpath=//table[@id='dataTable']/tbody/tr[4]/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Case/Edit/4')])[2]", "xpath:href"],
+        ["xpath=//tr[4]/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9b93e64-bf4d-4a07-9d59-58a46c828eb9",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f0da197-4879-4379-a10b-66d2d7acc863",
+      "comment": "",
+      "command": "type",
+      "target": "id=NEWSScore",
+      "targets": [
+        ["id=NEWSScore", "id"],
+        ["name=NEWSScore", "name"],
+        ["css=#NEWSScore", "css"],
+        ["xpath=//input[@id='NEWSScore']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "00007"
+    }, {
+      "id": "c2dc1481-a1ec-40ca-9309-2e62b4018285",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='submit'])[7]",
+      "targets": [
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[10]/div/button", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "38c2608c-1ac2-46f1-a813-bb093fea0e7f",
+    "name": "NEWSScoreNonNumber",
+    "commands": [{
+      "id": "786f8bb3-efee-460f-8429-a87eeca42af1",
+      "comment": "",
+      "command": "open",
+      "target": "/Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f23e959d-2263-4862-8ff3-66a31119c1d7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='dataTable']/tbody/tr[4]/td[6]/a",
+      "targets": [
+        ["xpath=//table[@id='dataTable']/tbody/tr[4]/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Case/Edit/4')])[2]", "xpath:href"],
+        ["xpath=//tr[4]/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f302fcb3-5f3d-4adf-83eb-fcc42761065c",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01eb4663-896a-4734-b374-fdf8817b28b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=NEWSScore",
+      "targets": [
+        ["id=NEWSScore", "id"],
+        ["name=NEWSScore", "name"],
+        ["css=#NEWSScore", "css"],
+        ["xpath=//input[@id='NEWSScore']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "f"
+    }, {
+      "id": "ec2d2d53-d03c-4721-8b14-8f36654f09f3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='submit'])[7]",
+      "targets": [
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[10]/div/button", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56705791-69e4-4e6a-8438-c12ba94436c8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error > span",
+      "targets": [
+        ["css=span.field-validation-error > span", "css"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[5]/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": "The field NEWS Score must be a number."
+    }]
+  }, {
+    "id": "889fffc1-7f05-474b-a706-3fe40049be80",
+    "name": "NEWSScore-veNumber",
+    "commands": [{
+      "id": "7ed8956a-a760-4f5a-9dfb-d74b102d092e",
+      "comment": "",
+      "command": "open",
+      "target": "/Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8ea05a6-079c-4a5e-992a-37d9728d5d5a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='dataTable']/tbody/tr[4]/td[6]/a",
+      "targets": [
+        ["xpath=//table[@id='dataTable']/tbody/tr[4]/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Case/Edit/4')])[2]", "xpath:href"],
+        ["xpath=//tr[4]/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "629edf1a-1774-46e9-941d-0da7e6270373",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26002257-f58f-4378-bd39-a8cea44cb008",
+      "comment": "",
+      "command": "type",
+      "target": "id=NEWSScore",
+      "targets": [
+        ["id=NEWSScore", "id"],
+        ["name=NEWSScore", "name"],
+        ["css=#NEWSScore", "css"],
+        ["xpath=//input[@id='NEWSScore']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "d6933acf-e6e0-4826-8bf0-9dd39016bd22",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='submit'])[7]",
+      "targets": [
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[10]/div/button", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7ae046-ba2c-4a4a-ba28-d703c7d96a45",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.validation-summary-errors > ul > li",
+      "targets": [
+        ["css=div.validation-summary-errors > ul > li", "css"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div/ul/li", "xpath:idRelative"],
+        ["xpath=//form/div/ul/li", "xpath:position"]
+      ],
+      "value": "NEWS score cannot be less than 1 or more than 15"
+    }]
+  }, {
+    "id": "11a16a9c-ac5f-4060-8236-fb0d81ec9554",
+    "name": "PrescriptionNonNumber",
+    "commands": [{
+      "id": "d32ce21f-5668-4c86-8286-b2c7c60fe304",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de3aa93f-6307-4d1c-85c7-c8010a44e7df",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "22a0167b-e459-4c2a-a100-beb2c3b3ac4b",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfbdbf0c-1494-4b0f-a386-a06a7c553772",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[1]/div[1]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22e3c7e4-126c-4b7e-beab-5aeb443516dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "52ad116a-be03-4f09-aa4a-11ace57f9fe7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a975e2c-bf16-43a0-8913-f311e9aa4310",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "f"
+    }, {
+      "id": "392205a5-60e8-4c4e-b3af-7919b019f9ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "f"
+    }, {
+      "id": "4d662c94-c671-4374-bd45-2cc020093e7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b14509b-8f95-4a7c-8574-fae0a46e7bd8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error > span",
+      "targets": [
+        ["css=span.field-validation-error > span", "css"],
+        ["xpath=//form[@id='prescriptionForm']/div[2]/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": "The field Volume must be a number."
+    }, {
+      "id": "98da8d71-78a6-45ba-a0c0-9fe965f7d39f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//form[@id='prescriptionForm']/div[2]/div/span[2]/span",
+      "targets": [
+        ["xpath=//form[@id='prescriptionForm']/div[2]/div/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": "The field Rate must be a number."
+    }]
+  }, {
+    "id": "705d014b-e9a6-4181-9766-ea72b89e5ba0",
+    "name": "PrescriptionLeading0s",
+    "commands": [{
+      "id": "1294c237-7f31-4824-b1f6-c9e6c73552a6",
+      "comment": "",
+      "command": "open",
+      "target": "/MyCase/View/4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14ad363e-f6a9-4b83-8a98-ef4fed2477db",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a.btn.btn-success",
+      "targets": [
+        ["css=a.btn.btn-success", "css"],
+        ["xpath=//a[contains(text(),'Create Prescription')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[7]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/CreatePrescription/4')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "90,4"
+    }, {
+      "id": "614189c3-6203-4749-9a41-3e26a7ccf207",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | My Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78ccf11d-52d9-4204-8c8b-1c5d850cca9a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"prescriptionForm\"]/div[1]/div[1]/div[1]/div[1]/ins",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fa14131-ce10-4be8-8201-69980f9f0ccc",
+      "comment": "",
+      "command": "type",
+      "target": "id=FluidTypeId-selectized",
+      "targets": [
+        ["id=FluidTypeId-selectized", "id"],
+        ["css=#FluidTypeId-selectized", "css"],
+        ["xpath=//input[@id='FluidTypeId-selectized']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Normal"
+    }, {
+      "id": "2d8e1ace-6723-4b70-b090-3ba565656c9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div[data-value=\"1\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe8943e5-7faa-45d4-940f-1bc197a11041",
+      "comment": "",
+      "command": "type",
+      "target": "id=Volume",
+      "targets": [
+        ["id=Volume", "id"],
+        ["name=Volume", "name"],
+        ["css=#Volume", "css"],
+        ["xpath=//input[@id='Volume']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0001000"
+    }, {
+      "id": "98e70cd7-d2ff-4fe2-a7d0-82fef22544b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=Rate",
+      "targets": [
+        ["id=Rate", "id"],
+        ["name=Rate", "name"],
+        ["css=#Rate", "css"],
+        ["xpath=//input[@id='Rate']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0020"
+    }, {
+      "id": "abcf5367-c552-44fa-86e5-1f2b55c8594c",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitPrescription",
+      "targets": [
+        ["id=submitPrescription", "id"],
+        ["css=#submitPrescription", "css"],
+        ["xpath=//button[@id='submitPrescription']", "xpath:attributes"],
+        ["xpath=//form[@id='prescriptionForm']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e21f9a4-05d4-494c-ba27-1511756dfab7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='prescriptionPartial']/div/table/tbody/tr/td[3]",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//td[3]", "xpath:position"]
+      ],
+      "value": "1000 ml"
+    }, {
+      "id": "30d52b91-08c7-49ce-aa08-4c3695341c89",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='prescriptionPartial']/div/table/tbody/tr/td[6]",
+      "targets": [
+        ["xpath=//div[@id='prescriptionPartial']/div/table/tbody/tr/td[6]", "xpath:idRelative"],
+        ["xpath=//td[6]", "xpath:position"]
+      ],
+      "value": "20 ml/hr"
+    }]
+  }, {
+    "id": "270d1b7c-91fd-4a1e-a46b-282a8b7597ce",
+    "name": "NEWSScorePresent",
+    "commands": [{
+      "id": "5e98ef8e-3155-49a1-a8c1-32264aab1962",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fac76cb-29f4-445a-965e-8fa5bad15aff",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='dataTable']/tbody/tr[2]/td[4]/a",
+      "targets": [
+        ["xpath=//table[@id='dataTable']/tbody/tr[2]/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyCase/View/4')]", "xpath:href"],
+        ["xpath=//tr[2]/td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0104203-e898-4adb-8b6e-ea35911ba444",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63792103-7657-49fe-b53a-b47580da5903",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Case",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9a3ac74-9236-4c0b-9331-45a4257acaab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[4]/label",
+      "targets": [
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[4]/label", "xpath:idRelative"],
+        ["xpath=//div[4]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37e9fb23-b8b5-49b8-b530-829f18cd0727",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[4]/div/p",
+      "targets": [
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/div/div/form/div[4]/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "53ddb4be-84c2-4a8f-9aca-1204a2835c64",
+    "name": "FluidNonNumber",
+    "commands": [{
+      "id": "1bb5f9ae-8f0d-4a77-becd-386f6b13d511",
+      "comment": "",
+      "command": "open",
+      "target": "/FluidType",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5bac0cd-8500-4def-9dec-3627843d1d71",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div/div/a",
+      "targets": [
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/FluidType/Edit/0')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3655bc1f-dff7-4434-b6c7-646385cd3a9e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Fluid Type Admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c23a9b0-3a63-4754-8be4-5204b09a7246",
+      "comment": "",
+      "command": "click",
+      "target": "id=Abbreviation",
+      "targets": [
+        ["id=Abbreviation", "id"],
+        ["name=Abbreviation", "name"],
+        ["css=#Abbreviation", "css"],
+        ["xpath=//input[@id='Abbreviation']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5acbffb0-53b0-468b-ab03-40129b12ccfa",
+      "comment": "",
+      "command": "type",
+      "target": "id=Abbreviation",
+      "targets": [
+        ["id=Abbreviation", "id"],
+        ["name=Abbreviation", "name"],
+        ["css=#Abbreviation", "css"],
+        ["xpath=//input[@id='Abbreviation']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "77a23192-cf90-4a46-a3f7-afdacc15a0d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=Description",
+      "targets": [
+        ["id=Description", "id"],
+        ["name=Description", "name"],
+        ["css=#Description", "css"],
+        ["xpath=//input[@id='Description']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2f8eb75-b91b-4ec7-b0a7-7c206ff36c51",
+      "comment": "",
+      "command": "type",
+      "target": "id=Description",
+      "targets": [
+        ["id=Description", "id"],
+        ["name=Description", "name"],
+        ["css=#Description", "css"],
+        ["xpath=//input[@id='Description']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "be797c26-fe18-4bd6-9ad8-dfc196d9e063",
+      "comment": "",
+      "command": "click",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23da4399-6dee-4656-86d8-bdc2f30baaa4",
+      "comment": "",
+      "command": "click",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97fadf82-653b-4b14-ae50-4b08e30886d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "f"
+    }, {
+      "id": "db04fa49-6efb-4ba9-9cc9-1469b4e05f0f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[13]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92451199-fe86-4723-8f9b-fdb4604513d5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error > span",
+      "targets": [
+        ["css=span.field-validation-error > span", "css"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": "The field Sodium must be a number."
+    }]
+  }, {
+    "id": "794ac3fe-643c-4158-b10f-b88415ef276b",
+    "name": "FluidBigNumber",
+    "commands": [{
+      "id": "60af5c58-c465-467a-865d-f25b297faa5b",
+      "comment": "",
+      "command": "open",
+      "target": "/FluidType",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25e9f781-f3ca-4bf9-8e88-7487ac1e502f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div/div/a",
+      "targets": [
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/FluidType/Edit/0')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ff18ab8-8f1d-4802-8332-f17ada82d86e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Fluid Type Admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fece9824-290d-4598-aad8-2ae622ed4203",
+      "comment": "",
+      "command": "click",
+      "target": "id=Abbreviation",
+      "targets": [
+        ["id=Abbreviation", "id"],
+        ["name=Abbreviation", "name"],
+        ["css=#Abbreviation", "css"],
+        ["xpath=//input[@id='Abbreviation']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f10628c6-49b5-49d5-adee-2dd95a275c03",
+      "comment": "",
+      "command": "type",
+      "target": "id=Abbreviation",
+      "targets": [
+        ["id=Abbreviation", "id"],
+        ["name=Abbreviation", "name"],
+        ["css=#Abbreviation", "css"],
+        ["xpath=//input[@id='Abbreviation']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "66da0c34-e2cd-4e2e-bcf5-1246b39afeda",
+      "comment": "",
+      "command": "click",
+      "target": "id=Description",
+      "targets": [
+        ["id=Description", "id"],
+        ["name=Description", "name"],
+        ["css=#Description", "css"],
+        ["xpath=//input[@id='Description']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8716a7e3-d69a-4d23-9bb6-5232aded55ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=Description",
+      "targets": [
+        ["id=Description", "id"],
+        ["name=Description", "name"],
+        ["css=#Description", "css"],
+        ["xpath=//input[@id='Description']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "0c66c2dd-3732-4f31-b91b-5ca4f746ca99",
+      "comment": "",
+      "command": "click",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39a89fb5-94de-4ed0-ad44-1445632b7b90",
+      "comment": "",
+      "command": "click",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa5b20e7-d95a-498f-956d-bda1f1a94d28",
+      "comment": "",
+      "command": "type",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "10000000000000000000"
+    }, {
+      "id": "b56de0e5-98be-442e-9d2d-fa5b86e4ee51",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[13]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e1a30ae-ab1f-4e7f-9084-7c96c504a259",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error > span",
+      "targets": [
+        ["css=span.field-validation-error > span", "css"],
+        ["//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/span/span", "xpath:idRelative"],
+        ["//span/span", "xpath:position"]
+      ],
+      "value": "Sodium content must at least 0 and less than 10000 mmol/l"
+    }]
+  }, {
+    "id": "7b381256-dc07-4288-902f-37cf777afbb6",
+    "name": "FluidVeryBigNumber",
+    "commands": [{
+      "id": "231990e3-e84f-42b2-8129-07872767a41e",
+      "comment": "",
+      "command": "open",
+      "target": "/FluidType",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82ff19ab-129c-435a-bd78-71b54c51b794",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div/div/a",
+      "targets": [
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/FluidType/Edit/0')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fd7179d-8eba-43ea-84f8-75d7b115165e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Fluid Type Admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87f35078-7de2-4b64-992f-8c71ca3a6194",
+      "comment": "",
+      "command": "click",
+      "target": "id=Abbreviation",
+      "targets": [
+        ["id=Abbreviation", "id"],
+        ["name=Abbreviation", "name"],
+        ["css=#Abbreviation", "css"],
+        ["xpath=//input[@id='Abbreviation']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebbfb84d-e40e-4e95-b85c-7abd2a0ad8f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=Abbreviation",
+      "targets": [
+        ["id=Abbreviation", "id"],
+        ["name=Abbreviation", "name"],
+        ["css=#Abbreviation", "css"],
+        ["xpath=//input[@id='Abbreviation']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "18dc1174-32cd-4593-bf73-5ff4a7a24c15",
+      "comment": "",
+      "command": "click",
+      "target": "id=Description",
+      "targets": [
+        ["id=Description", "id"],
+        ["name=Description", "name"],
+        ["css=#Description", "css"],
+        ["xpath=//input[@id='Description']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "695f675d-3065-4d7d-938e-272133283e1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Description",
+      "targets": [
+        ["id=Description", "id"],
+        ["name=Description", "name"],
+        ["css=#Description", "css"],
+        ["xpath=//input[@id='Description']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "6403808e-d74b-47f8-8cc4-352d136298b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dd84fa3-5bb2-41d5-93aa-2cd44de0eac2",
+      "comment": "",
+      "command": "click",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6226200-8aa2-470d-90fc-901a3cb3a715",
+      "comment": "",
+      "command": "type",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "1000000000000000000000000000000"
+    }, {
+      "id": "4dd82416-7aa6-4bb1-9795-575d14afa4af",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[13]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "989ead2d-06a5-42eb-bd0f-5c3d397f812c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error",
+      "targets": [
+        ["css=span.field-validation-error", "css"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": "Sodium content must at least 0 and less than 10000 mmol/l"
+    }]
+  }, {
+    "id": "8d9b947d-57f8-4b2a-90e8-0b82d88ca9ff",
+    "name": "Fluid-veNumber",
+    "commands": [{
+      "id": "76fc8d25-ddeb-401e-8b60-01169e8e3b96",
+      "comment": "",
+      "command": "open",
+      "target": "/FluidType",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb18dbc5-1b8d-4dae-a798-dbb386543e1d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div/div/a",
+      "targets": [
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/FluidType/Edit/0')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1665d1a0-ff87-4c22-b83e-6ded51b5aba5",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eFluidChart | Fluid Type Admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72bc22bc-3a21-4262-b6df-9ced5fb4ebac",
+      "comment": "",
+      "command": "click",
+      "target": "id=Abbreviation",
+      "targets": [
+        ["id=Abbreviation", "id"],
+        ["name=Abbreviation", "name"],
+        ["css=#Abbreviation", "css"],
+        ["xpath=//input[@id='Abbreviation']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4476a72e-5b60-4857-8132-bda7c47d663b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Abbreviation",
+      "targets": [
+        ["id=Abbreviation", "id"],
+        ["name=Abbreviation", "name"],
+        ["css=#Abbreviation", "css"],
+        ["xpath=//input[@id='Abbreviation']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "d194fff0-ecd3-4e25-89d0-0de4baa390ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=Description",
+      "targets": [
+        ["id=Description", "id"],
+        ["name=Description", "name"],
+        ["css=#Description", "css"],
+        ["xpath=//input[@id='Description']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6dfbd6d-c43d-4f62-a396-ccb3083c626e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Description",
+      "targets": [
+        ["id=Description", "id"],
+        ["name=Description", "name"],
+        ["css=#Description", "css"],
+        ["xpath=//input[@id='Description']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "ce125678-cf18-416e-97e3-c8d92d5aa31c",
+      "comment": "",
+      "command": "click",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f28f054f-0a82-4be3-9883-935eba7ccd2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "913be100-6d1d-4bb7-8276-9bd5db69e7f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=Sodium",
+      "targets": [
+        ["id=Sodium", "id"],
+        ["name=Sodium", "name"],
+        ["css=#Sodium", "css"],
+        ["xpath=//input[@id='Sodium']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "ec053a97-1bc5-4ea9-99cc-2dfd8b3a0916",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[13]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80d23ef6-ba60-4993-9d43-a774d46a9f5a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.field-validation-error > span",
+      "targets": [
+        ["css=span.field-validation-error > span", "css"],
+        ["//div[@id='page-wrapper']/div[2]/div/div/div/div[2]/form/div[4]/div/div/span/span", "xpath:idRelative"],
+        ["//span/span", "xpath:position"]
+      ],
+      "value": "Sodium content must at least 0 and less than 10000 mmol/l"
+    }]
+  }],
+  "suites": [{
+    "id": "22045b30-26bb-45f9-a5d4-4ddaae16457c",
+    "name": "Prescription Additive",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["525057ac-6403-4ac5-96dd-bdf7c93b496a", "f2906361-c60d-47cf-aa15-c4a5813c3c2f", "c1895421-dc21-4cc4-b09d-bbdd0d853c4e"]
+  }, {
+    "id": "1183290a-ebe4-4117-87fe-b9b1d8fcdb5b",
+    "name": "Prescription Bolus",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["84dcaffa-4eae-4ff0-bea4-c68b855d68b2", "3561f404-e978-4f01-9f88-4c659b8ef52e", "3286b418-0a1a-4d12-9988-2304887a1460", "484a2348-600b-40e1-a34d-f5688e78b80f", "48218b3d-eeae-46dd-85e0-7827fd111878"]
+  }, {
+    "id": "ae7a5915-01d1-4b7a-8866-52feb77b1f9f",
+    "name": "login",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "9c0b0d69-f398-4bbd-9e7b-877ac3e55448",
+    "name": "Prescription O/D/M",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bd40d560-e6e9-4392-8815-d57ade869d8b", "fdbcd4fb-39c9-438d-a39c-d15eadf76e34", "d3f9050a-7c0c-432e-999e-99143383cc07", "01c26274-8d21-4f2b-a424-927038517b71"]
+  }, {
+    "id": "4a31ff2f-6ca5-4630-86b8-8be33caa111c",
+    "name": "Prescription Edge Cases",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["484a2348-600b-40e1-a34d-f5688e78b80f", "8d57e331-e651-4a07-a148-5d8182ab6acf", "705d014b-e9a6-4181-9766-ea72b89e5ba0", "11a16a9c-ac5f-4060-8236-fb0d81ec9554"]
+  }, {
+    "id": "f71274f4-443f-4d69-b4f2-8d84ac2f8e5e",
+    "name": "Prescription Tier 3",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29fe3287-166c-4991-8155-db5916905a83"]
+  }, {
+    "id": "b5d24d2f-cb25-4818-b89c-5dd7c498b744",
+    "name": "Thumbnail Image",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["acfc8614-fe85-4f04-9b74-798f1390aa2e"]
+  }, {
+    "id": "3dd1ae13-3bf2-4461-9552-c9e526de4058",
+    "name": "Fluid Library",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["76687b17-29cc-494d-ab54-0a7bad4e87b2", "794ac3fe-643c-4158-b10f-b88415ef276b", "53ddb4be-84c2-4a8f-9aca-1204a2835c64", "7b381256-dc07-4288-902f-37cf777afbb6", "8d9b947d-57f8-4b2a-90e8-0b82d88ca9ff"]
+  }, {
+    "id": "896fa347-85db-4983-bb47-28ad30965922",
+    "name": "NEWSScore",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1b33e8ed-1298-4ab3-9b97-4fb2f9f07391", "e19075ea-d8fa-4e86-9d85-a3839a5b09cd", "889fffc1-7f05-474b-a706-3fe40049be80", "38c2608c-1ac2-46f1-a813-bb093fea0e7f", "270d1b7c-91fd-4a1e-a46b-282a8b7597ce"]
+  }],
+  "urls": ["https://www.efluidchart.com/"],
+  "plugins": []
+}
